@@ -7,8 +7,12 @@ acountCity = "jaipur"
 
 accountemail = "hc@hc.com"
 accountpassword = "21212121"
-accountCity = "bengal" 
+accountCity = "bengaluru" 
 
 console.log (accountId);
+/*
+perfer not to use var 
+beacuse of the issue in block scope and funtional scope
+*/
 
-console.table ([accountId, accountemail, accountpassword,accountCity])
+console.table ([accountId, accountemail, accountpassword,accountCity]) 
